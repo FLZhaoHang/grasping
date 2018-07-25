@@ -68,7 +68,7 @@ int main(int argc, char **argv)
 			RosApp.GetFinger1State(info_1);
 			ROS_INFO_STREAM("info "<<info_1[0]<<" "<<info_1[1]<<" "<<info_1[2]);
 			ROS_INFO_STREAM(" test ");
-
+            2311
 			info.data.push_back(1);
 			info.data.push_back(info_1[0]);
 			info.data.push_back(info_1[1]);
